@@ -9,6 +9,8 @@ add_executable(RANGO scr/GAME/main.cpp
                       scr/ENGINE/Source/RANGO/Window/Window.cpp
                       scr/ENGINE/Include/RANGO/Events/Events.hpp
                       scr/ENGINE/Include/RANGO/Events/KeyEvents.hpp
+                      scr/ENGINE/Include/RANGO/Events/MouseEvents.hpp
+                      scr/ENGINE/Include/RANGO/Events/ApplicationEvents.hpp
 )
 #include directories for all the include files in the project 
 

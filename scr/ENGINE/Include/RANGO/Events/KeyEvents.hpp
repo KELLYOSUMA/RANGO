@@ -3,7 +3,7 @@
 #include "KeyCodes.h"
 #include <cstdint>
 #include <pthread.h>
-#include <string.h>
+#include <sstream>
 #include <iostream>
 #include <string>
 
@@ -26,10 +26,35 @@ namespace RANGO {
         EVENT_CLASS_TYPE(keyPressed);
         bool Is_Repeat() const    {return m_IsRepeat;}
         virtual std::string ToString() const override{
-            std::cout << "Key Pressed: " << static_cast<uint32_t>(KeyEvent::GetKeyCode()) << '\n';
+            std::stringstream ss;
+            ss << "KeyPressedEvent: " << static_cast<uint16_t>(KeyEvent::GetKeyCode())<< " (repeat = " << m_IsRepeat << ")";
+            return ss.str();
         }
         
     private:
         bool m_IsRepeat;
     } ;
+    class KeyReleased : public KeyEvent {
+    public:
+        KeyReleased(const KeyCode& p_keycode) : KeyEvent(p_keycode) {};
+        EVENT_CLASS_TYPE(keyPressed);
+        virtual std::string ToString() const override{
+            std::stringstream ss;
+            ss << "KeyPressedEvent: " << static_cast<uint16_t>(KeyEvent::GetKeyCode())<< "\n";
+            return ss.str();
+        }
+    } ;
+    class keyTyped : public KeyEvent {
+    public:
+        keyTyped(const KeyCode& keycode,bool IsRepeat) : KeyEvent(keycode),m_IsRepeat(IsRepeat){};
+        ~keyTyped();
+        bool IsRepeating() const    {return m_IsRepeat;}
+        virtual std::string ToString() const override {
+            std::stringstream ss;
+            ss << "KeyPressedEvent: " << static_cast<uint16_t>(KeyEvent::GetKeyCode())<< " (repeat = " << m_IsRepeat << ")";
+            return ss.str();
+        }
+    private:
+        bool m_IsRepeat;
+    };
 }
