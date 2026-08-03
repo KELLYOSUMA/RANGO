@@ -237,6 +237,30 @@ scr/ENGINE/Source/RANGO/Core/Base.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RANGO.dir/build.make CMakeFiles/RANGO.dir/scr/ENGINE/Source/RANGO/Core/Base.cpp.s
 .PHONY : scr/ENGINE/Source/RANGO/Core/Base.cpp.s
 
+scr/ENGINE/Source/RANGO/Platform/Linux/Window/LinuxWindow.o: scr/ENGINE/Source/RANGO/Platform/Linux/Window/LinuxWindow.cpp.o
+.PHONY : scr/ENGINE/Source/RANGO/Platform/Linux/Window/LinuxWindow.o
+
+# target to build an object file
+scr/ENGINE/Source/RANGO/Platform/Linux/Window/LinuxWindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RANGO.dir/build.make CMakeFiles/RANGO.dir/scr/ENGINE/Source/RANGO/Platform/Linux/Window/LinuxWindow.cpp.o
+.PHONY : scr/ENGINE/Source/RANGO/Platform/Linux/Window/LinuxWindow.cpp.o
+
+scr/ENGINE/Source/RANGO/Platform/Linux/Window/LinuxWindow.i: scr/ENGINE/Source/RANGO/Platform/Linux/Window/LinuxWindow.cpp.i
+.PHONY : scr/ENGINE/Source/RANGO/Platform/Linux/Window/LinuxWindow.i
+
+# target to preprocess a source file
+scr/ENGINE/Source/RANGO/Platform/Linux/Window/LinuxWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RANGO.dir/build.make CMakeFiles/RANGO.dir/scr/ENGINE/Source/RANGO/Platform/Linux/Window/LinuxWindow.cpp.i
+.PHONY : scr/ENGINE/Source/RANGO/Platform/Linux/Window/LinuxWindow.cpp.i
+
+scr/ENGINE/Source/RANGO/Platform/Linux/Window/LinuxWindow.s: scr/ENGINE/Source/RANGO/Platform/Linux/Window/LinuxWindow.cpp.s
+.PHONY : scr/ENGINE/Source/RANGO/Platform/Linux/Window/LinuxWindow.s
+
+# target to generate assembly for a file
+scr/ENGINE/Source/RANGO/Platform/Linux/Window/LinuxWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RANGO.dir/build.make CMakeFiles/RANGO.dir/scr/ENGINE/Source/RANGO/Platform/Linux/Window/LinuxWindow.cpp.s
+.PHONY : scr/ENGINE/Source/RANGO/Platform/Linux/Window/LinuxWindow.cpp.s
+
 scr/ENGINE/Source/RANGO/Window/Window.o: scr/ENGINE/Source/RANGO/Window/Window.cpp.o
 .PHONY : scr/ENGINE/Source/RANGO/Window/Window.o
 
@@ -304,6 +328,9 @@ help:
 	@echo "... scr/ENGINE/Source/RANGO/Core/Base.o"
 	@echo "... scr/ENGINE/Source/RANGO/Core/Base.i"
 	@echo "... scr/ENGINE/Source/RANGO/Core/Base.s"
+	@echo "... scr/ENGINE/Source/RANGO/Platform/Linux/Window/LinuxWindow.o"
+	@echo "... scr/ENGINE/Source/RANGO/Platform/Linux/Window/LinuxWindow.i"
+	@echo "... scr/ENGINE/Source/RANGO/Platform/Linux/Window/LinuxWindow.s"
 	@echo "... scr/ENGINE/Source/RANGO/Window/Window.o"
 	@echo "... scr/ENGINE/Source/RANGO/Window/Window.i"
 	@echo "... scr/ENGINE/Source/RANGO/Window/Window.s"

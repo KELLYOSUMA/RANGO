@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/kelly/RANGO/scr/ENGINE/Source/RANGO/Core/Base.cpp" "CMakeFiles/RANGO.dir/scr/ENGINE/Source/RANGO/Core/Base.cpp.o" "gcc" "CMakeFiles/RANGO.dir/scr/ENGINE/Source/RANGO/Core/Base.cpp.o.d"
+  "/home/kelly/RANGO/scr/ENGINE/Source/RANGO/Platform/Linux/Window/LinuxWindow.cpp" "CMakeFiles/RANGO.dir/scr/ENGINE/Source/RANGO/Platform/Linux/Window/LinuxWindow.cpp.o" "gcc" "CMakeFiles/RANGO.dir/scr/ENGINE/Source/RANGO/Platform/Linux/Window/LinuxWindow.cpp.o.d"
   "/home/kelly/RANGO/scr/ENGINE/Source/RANGO/Window/Window.cpp" "CMakeFiles/RANGO.dir/scr/ENGINE/Source/RANGO/Window/Window.cpp.o" "gcc" "CMakeFiles/RANGO.dir/scr/ENGINE/Source/RANGO/Window/Window.cpp.o.d"
   "/home/kelly/RANGO/scr/GAME/main.cpp" "CMakeFiles/RANGO.dir/scr/GAME/main.cpp.o" "gcc" "CMakeFiles/RANGO.dir/scr/GAME/main.cpp.o.d"
   )

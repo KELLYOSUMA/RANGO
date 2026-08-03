@@ -1,21 +1,27 @@
 [
 {
   "directory": "/home/kelly/RANGO/build",
-  "command": "/usr/bin/c++  -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Core -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Core/Macros -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Core/Headers -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Window -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Events/Codes -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Events -I/home/kelly/RANGO/Vendor/glfw/include -std=gnu++23 -o CMakeFiles/RANGO.dir/scr/GAME/main.cpp.o -c /home/kelly/RANGO/scr/GAME/main.cpp",
+  "command": "/usr/bin/c++  -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Core -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Core/Macros -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Core/Headers -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Window -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Events/Codes -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Events -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Platform/Linux/Window -I/home/kelly/RANGO/Vendor/glfw/include -std=gnu++23 -o CMakeFiles/RANGO.dir/scr/GAME/main.cpp.o -c /home/kelly/RANGO/scr/GAME/main.cpp",
   "file": "/home/kelly/RANGO/scr/GAME/main.cpp",
   "output": "CMakeFiles/RANGO.dir/scr/GAME/main.cpp.o"
 },
 {
   "directory": "/home/kelly/RANGO/build",
-  "command": "/usr/bin/c++  -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Core -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Core/Macros -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Core/Headers -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Window -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Events/Codes -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Events -I/home/kelly/RANGO/Vendor/glfw/include -std=gnu++23 -o CMakeFiles/RANGO.dir/scr/ENGINE/Source/RANGO/Core/Base.cpp.o -c /home/kelly/RANGO/scr/ENGINE/Source/RANGO/Core/Base.cpp",
+  "command": "/usr/bin/c++  -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Core -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Core/Macros -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Core/Headers -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Window -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Events/Codes -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Events -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Platform/Linux/Window -I/home/kelly/RANGO/Vendor/glfw/include -std=gnu++23 -o CMakeFiles/RANGO.dir/scr/ENGINE/Source/RANGO/Core/Base.cpp.o -c /home/kelly/RANGO/scr/ENGINE/Source/RANGO/Core/Base.cpp",
   "file": "/home/kelly/RANGO/scr/ENGINE/Source/RANGO/Core/Base.cpp",
   "output": "CMakeFiles/RANGO.dir/scr/ENGINE/Source/RANGO/Core/Base.cpp.o"
 },
 {
   "directory": "/home/kelly/RANGO/build",
-  "command": "/usr/bin/c++  -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Core -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Core/Macros -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Core/Headers -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Window -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Events/Codes -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Events -I/home/kelly/RANGO/Vendor/glfw/include -std=gnu++23 -o CMakeFiles/RANGO.dir/scr/ENGINE/Source/RANGO/Window/Window.cpp.o -c /home/kelly/RANGO/scr/ENGINE/Source/RANGO/Window/Window.cpp",
+  "command": "/usr/bin/c++  -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Core -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Core/Macros -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Core/Headers -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Window -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Events/Codes -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Events -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Platform/Linux/Window -I/home/kelly/RANGO/Vendor/glfw/include -std=gnu++23 -o CMakeFiles/RANGO.dir/scr/ENGINE/Source/RANGO/Window/Window.cpp.o -c /home/kelly/RANGO/scr/ENGINE/Source/RANGO/Window/Window.cpp",
   "file": "/home/kelly/RANGO/scr/ENGINE/Source/RANGO/Window/Window.cpp",
   "output": "CMakeFiles/RANGO.dir/scr/ENGINE/Source/RANGO/Window/Window.cpp.o"
+},
+{
+  "directory": "/home/kelly/RANGO/build",
+  "command": "/usr/bin/c++  -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Core -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Core/Macros -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Core/Headers -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Window -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Events/Codes -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Events -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Platform/Linux/Window -I/home/kelly/RANGO/Vendor/glfw/include -std=gnu++23 -o CMakeFiles/RANGO.dir/scr/ENGINE/Source/RANGO/Platform/Linux/Window/LinuxWindow.cpp.o -c /home/kelly/RANGO/scr/ENGINE/Source/RANGO/Platform/Linux/Window/LinuxWindow.cpp",
+  "file": "/home/kelly/RANGO/scr/ENGINE/Source/RANGO/Platform/Linux/Window/LinuxWindow.cpp",
+  "output": "CMakeFiles/RANGO.dir/scr/ENGINE/Source/RANGO/Platform/Linux/Window/LinuxWindow.cpp.o"
 },
 {
   "directory": "/home/kelly/RANGO/build/Vendor/glfw/src",

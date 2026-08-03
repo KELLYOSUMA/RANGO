@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Core -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Core/Macros -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Core/Headers -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Window -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Events/Codes -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Events -I/home/kelly/RANGO/Vendor/glfw/include
+CXX_INCLUDES = -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Core -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Core/Macros -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Core/Headers -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Window -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Events/Codes -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Events -I/home/kelly/RANGO/scr/ENGINE/Include/RANGO/Platform/Linux/Window -I/home/kelly/RANGO/Vendor/glfw/include
 
 CXX_FLAGS = -std=gnu++23
 
