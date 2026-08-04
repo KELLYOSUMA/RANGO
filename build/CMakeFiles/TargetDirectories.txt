@@ -5,6 +5,13 @@
 /home/kelly/RANGO/build/CMakeFiles/install.dir
 /home/kelly/RANGO/build/CMakeFiles/install/local.dir
 /home/kelly/RANGO/build/CMakeFiles/install/strip.dir
+/home/kelly/RANGO/build/Vendor/spdlog/CMakeFiles/spdlog.dir
+/home/kelly/RANGO/build/Vendor/spdlog/CMakeFiles/edit_cache.dir
+/home/kelly/RANGO/build/Vendor/spdlog/CMakeFiles/rebuild_cache.dir
+/home/kelly/RANGO/build/Vendor/spdlog/CMakeFiles/list_install_components.dir
+/home/kelly/RANGO/build/Vendor/spdlog/CMakeFiles/install.dir
+/home/kelly/RANGO/build/Vendor/spdlog/CMakeFiles/install/local.dir
+/home/kelly/RANGO/build/Vendor/spdlog/CMakeFiles/install/strip.dir
 /home/kelly/RANGO/build/Vendor/glfw/CMakeFiles/uninstall.dir
 /home/kelly/RANGO/build/Vendor/glfw/CMakeFiles/edit_cache.dir
 /home/kelly/RANGO/build/Vendor/glfw/CMakeFiles/rebuild_cache.dir
