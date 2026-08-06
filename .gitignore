@@ -1,3 +1,20 @@
-build/
-.cache/
-.gitmodules
+# Ignore everything
+*
+
+# Keep directories
+!*/
+
+# Keep CMake files
+!CMakeLists.txt
+
+# Keep source files
+!src/
+!src/**
+
+# Keep resources
+!res/
+!res/**
+
+# Keep vendors
+!Vendors/
+!Vendors/**
