@@ -1,12 +1,21 @@
+#include "Base.h"
+#include "LinuxWindow.h"
 #include <Window.h>
+#include <cstdint>
+#include <memory>
+#include <utility>
 namespace RANGO {
-    RANGO::Window::Window(){
-        
-    }  
-    RANGO::Window::~Window(){
+    RANGO::Window::~Window(){   
         
     }
-    void Window::Create_Wind_Init(int& width ,int& height){
+    scope<Window> Window::CreateWindow(const WindowProps& props){
+        #if defined(__linux__)
+            return CreateScope<LinuxWindow>(props);
+        #else
+            return nullptr;
+        #endif
+    }
+    void RANGO::Window::OnUpdate(){
         
     }
 };
